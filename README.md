@@ -1,6 +1,6 @@
-# Lógica de Programação 
+# Lógica de Programação
 
-Este repositório tem como objetivo compartilhar um pouco dos meus estudos de lógica de programação utilizando o Python. No momento, vou passar por algumas informações introdutórias sobre, mas, deixarei um link com a história e detalhes sobre a mesma. 
+Este repositório tem como objetivo compartilhar um pouco dos meus estudos de lógica de programação utilizando o Python. No momento, vou passar por algumas informações introdutórias sobre, mas, deixarei um link com a história e detalhes sobre a mesma.
 
 **Link:** [Ebook - Introdução ao Python - Editora IFRN](https://memoria.ifrn.edu.br/bitstream/handle/1044/2090/EBOOK%20-%20INTRODU%C3%87%C3%83O%20A%20PYTHON%20%28EDITORA%20IFRN%29.pdf?sequence=1&isAllowed=y)
 
@@ -27,8 +27,7 @@ Caso contrário, vamos ver agora um passo a passo da instalação (depois irei a
 7. Depois de fazer as seleções desejadas, clique em "Next" (Avançar) e aguarde a instalação ser concluída.
 8. Após a instalação ser concluída, você pode abrir o prompt de comando (no Windows, pressione Win + R, digite "cmd" e pressione Enter) e digitar "python" para verificar se o Python foi instalado corretamente, como fizemos inicialmente.
 
-
-------
+---
 
 ### Linguagem Pyton
 
@@ -36,16 +35,14 @@ Caso contrário, vamos ver agora um passo a passo da instalação (depois irei a
 
 Bem... há varias formas de utilizarmos na prática o python. Aqui, utilizei o IDLE para testes iniciais com a linguagem e o Pycharm. Para aprender um pouco sobre a IDE que vem junto a instalação padrão do Pyhton. Segue apenas um resuminho sobre:
 
-*IDLE* oferece uma interface gráfica simples que facilita a interação com o interpretador Python. Ele inclui recursos como um editor de texto com realce de sintaxe, suporte para execução interativa de código, histórico de comandos, visualização de resultados, depuração passo a passo, a capacidade de abrir múltiplos editores de código, autocompletar, exibição da árvore de análise sintática e suporte a extensões de terceiros. Uma das principais características do IDLE é a capacidade de executar código Python interativamente, o que significa que você pode digitar instruções e ver os resultados imediatamente. 
+_IDLE_ oferece uma interface gráfica simples que facilita a interação com o interpretador Python. Ele inclui recursos como um editor de texto com realce de sintaxe, suporte para execução interativa de código, histórico de comandos, visualização de resultados, depuração passo a passo, a capacidade de abrir múltiplos editores de código, autocompletar, exibição da árvore de análise sintática e suporte a extensões de terceiros. Uma das principais características do IDLE é a capacidade de executar código Python interativamente, o que significa que você pode digitar instruções e ver os resultados imediatamente.
 
-##### Pycharm 
+##### Pycharm
 
-O PyCharm é um ambiente de desenvolvimento integrado (IDE) altamente popular e amplamente utilizado para programação em Python. Ele é desenvolvido pela JetBrains e oferece uma série de recursos e 
+O PyCharm é um ambiente de desenvolvimento integrado (IDE) altamente popular e amplamente utilizado para programação em Python. Ele é desenvolvido pela JetBrains e oferece uma série de recursos e
 ferramentas que visam facilitar o processo de desenvolvimento de software em Python.
 
-
-
-------
+---
 
 ### Resumão Sobre Variáveis e Atribuição de Valores
 
@@ -56,21 +53,21 @@ ferramentas que visam facilitar o processo de desenvolvimento de software em Pyt
    Para atribuir um valor a uma variável, utilize o operador de atribuição (=) seguido pelo valor que deseja armazenar.
 3. **Nomes de variáveis:**
 
-- O nome de uma variável pode conter letras, números e o caractere de sublinhado (_).
+- O nome de uma variável pode conter letras, números e o caractere de sublinhado (\_).
 - O primeiro caractere do nome da variável não pode ser um número.
 - Python é sensível a maiúsculas e minúsculas, ou seja, diferencia maiúsculas de minúsculas. Por exemplo, "valor" e "Valor" são duas variáveis diferentes.
 
 4. **Reatribuição de valores:**
    Você pode alterar o valor de uma variável simplesmente atribuindo um novo valor a ela.
 5. **Tipos de dados**
-   As variáveis em Python podem conter diferentes tipos de dados, como 
-   inteiros (int), números de ponto flutuante (float), strings (str), 
-   listas (list), dicionários (dict), entre outros. O tipo de dado é 
+   As variáveis em Python podem conter diferentes tipos de dados, como
+   inteiros (int), números de ponto flutuante (float), strings (str),
+   listas (list), dicionários (dict), entre outros. O tipo de dado é
    inferido automaticamente quando você atribui um valor à variável.
 
 <Exemplos em código - ex001>
 
-------
+---
 
 ### Expressões em Python
 
@@ -79,16 +76,16 @@ Expressões são combinações válidas de variáveis, constantes e operadores q
 #### **Expressões Aritméticas:**
 
 - Operam sobre valores inteiros ou reais.
-- Os operadores aritméticos são: + (adição), - (subtração), * (multiplicação), / (divisão), // (parte inteira da divisão), % (resto da divisão) e ** (exponenciação).
-- A precedência dos operadores é: primeiro **, depois *, /, // e %, e por último + e -.
+- Os operadores aritméticos são: + (adição), - (subtração), \* (multiplicação), / (divisão), // (parte inteira da divisão), % (resto da divisão) e \*\* (exponenciação).
+- A precedência dos operadores é: primeiro \*_, depois _, /, // e %, e por último + e -.
 - Parênteses podem ser usados para forçar a avaliação de operadores com menor precedência.
 
 Exemplos:
 
 - 5 + 3 → Resultado: 8
-- 10 * 2 / 5 → Resultado: 4.0
-- 2 ** 3 + 4 → Resultado: 12
-- (5 + 3) * 2 → Resultado: 16
+- 10 \* 2 / 5 → Resultado: 4.0
+- 2 \*\* 3 + 4 → Resultado: 12
+- (5 + 3) \* 2 → Resultado: 16
 
 <Exemplos em código - ex002>
 
@@ -128,7 +125,7 @@ Lembre-se de que as expressões são fundamentais para realizar cálculos, compa
 
 <Exemplos em código - ex001, ex002, ex003>
 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+---
 
 ### Controle de Fluxo
 
@@ -176,7 +173,7 @@ Exemplo:
 
 <Exemplos em código - ex004>
 
-------
+---
 
 ### Estrutura de Repetição - FOR
 
@@ -190,11 +187,11 @@ Sintaxe do comando **WHILE** em Python é a seguinte:
 
 **while** condição:
 
-​           **comando_verdadeiro**
+​ **comando_verdadeiro**
 
-Os comandos (ou instruções) dentro do corpo da estrutura **while** são executados (ou repetidos) ENQUANTO a condição for verdadeira 
+Os comandos (ou instruções) dentro do corpo da estrutura **while** são executados (ou repetidos) ENQUANTO a condição for verdadeira
 (True).
-​                    Quando a condição se torna falsa (False), os 
+​ Quando a condição se torna falsa (False), os
 comandos não são executados e o programa continua depois da instrução **while**.
 
 **Estrutura de repetição com for:**
@@ -205,21 +202,21 @@ Sintaxe do comando **FOR** em Python é a seguinte:
 
 **for** item **in range**(início, fim, passo):
 
-​           **item **    
+​ **item **
 
 Podemos usar o `break` para sair de um loop antes que a condição seja falsa, e o `continue` para pular a iteração atual e ir para a próxima.
 
 <Exemplos em código - ex006, ex007>
 
-------
+---
 
 ### Estrutura de Dados
 
-Estas estruturas resolvem um tipo de problema e podem ser úteis em diversas situações.  As principais estruturas são as Listas, Sets, Dicionários e Tuplas.
+Estas estruturas resolvem um tipo de problema e podem ser úteis em diversas situações. As principais estruturas são as Listas, Sets, Dicionários e Tuplas.
 
-####     **Listas**
+#### **Listas**
 
-Uma lista é a estrutura de dados mais básica do Python e armazena os dados em sequência, onde cada elemento possui sua posição na lista, denominada de índice. O primeiro elemento é sempre o índice zero e a cada elemento inserido na lista esse valor é    incrementado.
+Uma lista é a estrutura de dados mais básica do Python e armazena os dados em sequência, onde cada elemento possui sua posição na lista, denominada de índice. O primeiro elemento é sempre o índice zero e a cada elemento inserido na lista esse valor é incrementado.
 
 No Python, uma lista pode armazenar qualquer tipo de dado primitivo (string, inteiro, float, etc).
 
@@ -237,9 +234,9 @@ Podemos também criar listas dentro de outras listas. Essas são chamadas de nes
 nome_da_lista = ["Olá, mundo",  [1, 2, 3], ["outra_lista"]]
 ```
 
-####     **Tuplas**
+#### **Tuplas**
 
-Uma tupla é uma estrutura bastante similar a uma lista, com apenas uma diferença: **os elementos inseridos em uma tupla não podem ser alterados**, diferente de uma lista onde podem ser    alterados livremente. Sendo assim, em um primeiro momento, podemos pensar em uma tupla como uma lista que não pode ser alterada, mas não é bem assim…
+Uma tupla é uma estrutura bastante similar a uma lista, com apenas uma diferença: **os elementos inseridos em uma tupla não podem ser alterados**, diferente de uma lista onde podem ser alterados livremente. Sendo assim, em um primeiro momento, podemos pensar em uma tupla como uma lista que não pode ser alterada, mas não é bem assim…
 
 É certo que as tuplas possuem diversas características das listas, porém os usos são distintos. As listas são destinadas a serem sequências homogêneas, enquanto que as Tuplas são estruturas de dados heterogêneas.
 
@@ -261,7 +258,7 @@ A sintaxe para criação de uma tupla, assim como uma lista, também é bem simp
 nome_da_tupla = (1, 2, 3) #tupla de inteirosnome_da_tupla = (1, "olá", 1.5) #tupla heterogênea
 ```
 
-####     **Sets**
+#### **Sets**
 
 No Python, os sets são uma coleção de itens desordenada, parcialmente imutável e que não podem conter elementos duplicados. Por ser parcialmente imutável, os sets possuem permissão de adição e remoção de elementos.
 
@@ -282,9 +279,9 @@ A segunda é utilizando o método **set** presente no Python:
 nome_do_set = set([1, 2, 3, 4])
 ```
 
-####     **Dicionários**
+#### **Dicionários**
 
-No Python, os dicionários são coleções de itens desordenados com uma diferença bem grande quando comparados às outras coleções (*listas, sets, tuplas, etc*): **um elemento dentro de um dicionário possui uma chave atrelada a ele, uma espécie de identificador**.    Sendo assim, é muito utilizado quando queremos armazenar dados de forma organizada e que possuem identificação única (como acontece em bancos de dados).
+No Python, os dicionários são coleções de itens desordenados com uma diferença bem grande quando comparados às outras coleções (_listas, sets, tuplas, etc_): **um elemento dentro de um dicionário possui uma chave atrelada a ele, uma espécie de identificador**. Sendo assim, é muito utilizado quando queremos armazenar dados de forma organizada e que possuem identificação única (como acontece em bancos de dados).
 
 | Chaves | Valores         |
 | ------ | --------------- |
@@ -310,17 +307,15 @@ A segunda forma é utilizando o método **dict()** com o dicionário sendo passa
 nome_do_dicionario = dict({1: ‘João’, 2: ‘José’})nome_do_dicionario = dict({‘nome’: ‘João’, ‘sobrenome’: ‘Silva’})
 ```
 
-
-
 ### Listas
 
-Vamos agora aprofundar o nosso estudo em torno da estrutura de dados* "lista"*. Não se preocupe, que o estudo anterior também irá se aplicar aqui, pois precisamos das estruturas de repetição    para percorrer as listas.
+Vamos agora aprofundar o nosso estudo em torno da estrutura de dados* "lista"*. Não se preocupe, que o estudo anterior também irá se aplicar aqui, pois precisamos das estruturas de repetição para percorrer as listas.
 
-Trabalhar com listas nos permite resolver vários problemas. Você pode criar listas de cada um dos tipos básicos e até mesmo de outras listas. 
+Trabalhar com listas nos permite resolver vários problemas. Você pode criar listas de cada um dos tipos básicos e até mesmo de outras listas.
 
-**Mas, o quem vem a ser uma lista?** 
+**Mas, o quem vem a ser uma lista?**
 
-*Ora tenho certeza que você já criou uma lista alguma vez na vida. Podemos citar diversos exemplos, como uma lista de compras no supermercado, a lista dos seus filmes favoritos, a lista das matérias que você precisa estudar mais.*
+_Ora tenho certeza que você já criou uma lista alguma vez na vida. Podemos citar diversos exemplos, como uma lista de compras no supermercado, a lista dos seus filmes favoritos, a lista das matérias que você precisa estudar mais._
 
 Em Python, uma lista é uma sequência mutável de n valores que podem ser de qualquer tipo
 (inclusive outras listas, tuplas e dicionários).
@@ -330,34 +325,72 @@ imutáveis e listas serem mutáveis.
 
 As listas podem ser percorridas, “fatiadas” e concatenadas da mesma forma que as Strings. A diferença é que em se tratando de Strings, cada elemento é um caractere e, em se tratando de listas, cada elemento pode ser qualquer tipo de variável. Além disso, uma String pode ser convertida para uma lista (como já foi visto) e uma lista pode ser convertida para uma string.
 
-____________
+---
 
 ### Modularização
 
-Técnica de programação que visa a organização do código em partes menores, reutilizáveis e mais gerenciáveis. Ao dividir o código em módulos ou funções, o programador pode focar em resolver pequenas partes do problema por vez, tornando o código mais legível e facilitando a manutenção. 
+Técnica de programação que visa a organização do código em partes menores, reutilizáveis e mais gerenciáveis. Ao dividir o código em módulos ou funções, o programador pode focar em resolver pequenas partes do problema por vez, tornando o código mais legível e facilitando a manutenção.
 
-##### Escopo de Variáveis 
+##### Escopo de Variáveis
 
-O escopo de uma variável refere-se ao contexto no qual essa variável está definida e por onde pode ser acessada. 
+O escopo de uma variável refere-se ao contexto no qual essa variável está definida e por onde pode ser acessada.
 
 - **Variáveis Locais:** São definidas dentro de uma função e não podem ser acessadas fora dela.
 
 - **Variáveis Globais:** São definidas no corpo principal do código e podem ser acessadas através
-   de sua palavra-chave em outra parte do código e, até mesmo, em funções.
+  de sua palavra-chave em outra parte do código e, até mesmo, em funções.
 
   ​
 
 ##### Funções
 
-Funções são blocos de 
-código que executam uma tarefa específica e que podem ser reutilizados. 
-Elas permitem a modularização do código, reduzindo a repetição de 
+Funções são blocos de
+código que executam uma tarefa específica e que podem ser reutilizados.
+Elas permitem a modularização do código, reduzindo a repetição de
 trechos específicos e tornando o código mais legível.
 
 - **Definição:** Uma função é definida usando a palavra-chave `def`, seguida pelo nome da função e parênteses.
 - **Chamada:** Uma vez definida, uma função pode ser chamada pelo seu nome, seguida de parênteses.
 
+#### Funções Recursivas
 
+Uma função recursiva é uma função que se chama a si mesma durante sua execução. Ela deve ter uma condição de parada para evitar que a recursão continue indefinidamente.
+
+A pesquisa binária é um algoritmo eficiente para encontrar um item específico em uma lista ordenada de itens. Ele funciona dividindo repetidamente pela metade a parte da lista que poderia conter o item, até reduzir as localizações possíveis a apenas uma.
+
+Aqui está um exemplo de uma função recursiva em Python que implementa a pesquisa binária:
+
+```python
+def pesquisa_binaria(lista, item, baixo, alto):
+    # Condição de parada: baixo > alto
+    if baixo > alto:
+        return None
+
+    # Calcula o ponto médio da lista
+    meio = (baixo + alto) // 2
+
+    # Caso base: encontrou o item
+    if lista[meio] == item:
+        return meio
+
+    # Caso recursivo: o item está na metade inferior da lista
+    elif lista[meio] > item:
+        return pesquisa_binaria(lista, item, baixo, meio - 1)
+
+    # Caso recursivo: o item está na metade superior da lista
+    else:
+        return pesquisa_binaria(lista, item, meio + 1, alto)
+
+# Lista de exemplo
+lista = [1, 3, 5, 7, 9]
+
+# Procura o número 3 na lista
+resultado = pesquisa_binaria(lista, 3, 0, len(lista) - 1)
+
+print("O número 3 está no índice: ", resultado)
+```
+
+Neste código, a função pesquisa_binaria recebe uma lista, um item para procurar, e os índices baixo e alto que representam a parte da lista onde o item pode estar. A função retorna o índice do item na lista ou None se o item não estiver na lista. A função chama a si mesma recursivamente para procurar o item na metade inferior ou superior da lista, dependendo do valor do item em relação ao item no meio da lista.
 
 ##### Passagem de Parâmetro
 
@@ -392,13 +425,8 @@ Entender as bibliotecas e como elas operam é fundamental para qualquer desenvol
 
 <Exemplos em código - ex036, ex037, ex038>
 
-
-
-
-
 Glossário:
 
 Interpretador:
 
 Linguagem de Máquina:
-
