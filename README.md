@@ -68,3 +68,42 @@ Antes de iniciar a colaboração é necessário instalar o Python
 
 Para mais detalhes, visite nossa [Wiki](https://github.com/allineantunnes/estudos-logica-com-python/wiki).
 
+
+
+Claro, vamos organizar o repositório do GitHub com um README mais resumido e mover o conteúdo detalhado para a Wiki.
+
+Novo README.md
+markdown
+Copiar código
+# Lógica de Programação com Python
+
+Bem-vindo ao repositório de estudos de lógica de programação utilizando Python! Aqui, você encontrará recursos e exemplos práticos para melhorar suas habilidades de programação.
+
+## Conteúdos
+
+- Instalação do Python
+- Introdução ao Python
+- Variáveis e Atribuição de Valores
+- Expressões em Python (Aritméticas, Lógicas e Relacionais)
+- Controle de Fluxo (if, for, while)
+- Estruturas de Dados (Listas, Tuplas, Sets, Dicionários)
+- Modularização e Funções
+- Bibliotecas em Python
+
+Para mais detalhes, visite nossa [Wiki](https://github.com/seu-usuario/seu-repositorio/wiki).
+
+## Como Contribuir
+1. Faça um fork do repositório.
+2. Crie uma nova branch:
+   ```bash
+   git checkout -b minha-branch.
+4. Faça suas alterações e commit:
+   ```bash
+   git commit -m 'Minhas alterações'.
+6. Faça um push para a branch:
+   ```bash
+   git push origin minha-branch.
+8. Abra um Pull Request.
+
+### Licença
+Este projeto está licenciado sob a Licença MIT.
