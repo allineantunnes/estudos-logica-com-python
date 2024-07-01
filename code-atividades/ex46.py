@@ -1,3 +1,5 @@
+#Algoritmo que simulado um algoritmo de saque de dinheiro em caixa da solicidação ao saque... (notas disponível, valor inválido, sem notas disponível).
+
 import time
 def saqueDinheiro(valor):
     notas_disponiveis = [50, 20, 10]
