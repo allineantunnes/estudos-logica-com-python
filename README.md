@@ -392,9 +392,80 @@ Entender as bibliotecas e como elas operam é fundamental para qualquer desenvol
 
 <Exemplos em código - ex036, ex037, ex038>
 
+------
+
+### Manipulação de Strings
+
+#### Concatenar Strings
+
+Permite juntar duas ou mais strings em uma única. A concatenação é feita com o operador +.
+
+*Exemplos:*  
+"Olá, " + "mundo!"  # Resultado: 'Olá, mundo!'  
+"Python " + "é incrível."  # Resultado: 'Python é incrível.'
 
 
+#### Alterar Maiúsculas e Minúsculas
 
+Os métodos para alterar a capitalização de uma string são:
+
+- upper(): Transforma todos os caracteres em maiúsculas.
+- lower(): Transforma todos os caracteres em minúsculas.
+- title(): Coloca a primeira letra de cada palavra em maiúscula.
+- capitalize(): Coloca a primeira letra da string em maiúscula.
+
+*Exemplos:*  
+"python".upper()  # Resultado: 'PYTHON'  
+"PYTHON".lower()  # Resultado: 'python'  
+"python é incrível".title()  # Resultado: 'Python É Incrível'  
+"olá mundo".capitalize()  # Resultado: 'Olá mundo'  
+
+
+#### Remoção de Espaços
+
+Strings podem conter espaços no início ou no fim, que podem ser removidos com:  
+- strip(): Remove espaços no início e no final.  
+- lstrip(): Remove espaços apenas no início.  
+- rstrip(): Remove espaços apenas no final.  
+
+*Exemplos:*  
+"  Olá, mundo!  ".strip()  # Resultado: 'Olá, mundo!'  
+"  Olá, mundo!  ".lstrip()  # Resultado: 'Olá, mundo!  '  
+"  Olá, mundo!  ".rstrip()  # Resultado: '  Olá, mundo!'  
+
+
+#### Substituir Substrings
+
+O método replace() substitui partes de uma string por outra.
+
+*Exemplo:*  
+"Python é divertido".replace("divertido", "poderoso")    
+*Resultado:* 'Python é poderoso'  
+
+
+#### Dividir e Juntar Strings
+
+- split(): Divide uma string em uma lista de substrings, com base em um delimitador (por padrão, espaços).  
+- join(): Junta elementos de uma lista em uma única string, com um delimitador entre eles.  
+
+*Exemplos:*
+
+"Aprender Python é divertido".split()  
+*Resultado:* ['Aprender', 'Python', 'é', 'divertido']  
+
+"-".join(["Python", "é", "incrível"])  
+*Resultado:* 'Python-é-incrível'  
+
+#### Encontrar Substrings
+
+- find(): Retorna o índice da primeira ocorrência de uma substring. Retorna -1 se não encontrar.  
+- count(): Conta quantas vezes uma substring aparece na string.  
+
+*Exemplos:*  
+"Programar é divertido".find("divertido")  # Resultado: 11  
+"banana".count("a")  # Resultado: 3  
+
+------
 
 Glossário:
 
