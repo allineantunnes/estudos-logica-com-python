@@ -392,7 +392,78 @@ Entender as bibliotecas e como elas operam é fundamental para qualquer desenvol
 
 <Exemplos em código - ex036, ex037, ex038>
 
+### Tratamento de Exceções: Try, Except e Finally
 
+O tratamento de exceções em Python é uma técnica essencial para lidar com erros que podem ocorrer durante a execução de um programa. Ele permite que você capture e trate erros de forma controlada, evitando que o programa seja interrompido abruptamente.
+
+#### **Try e Except**
+
+A estrutura `try` e `except` é usada para capturar exceções (erros) que podem ocorrer em um bloco de código. O código dentro do bloco `try` é executado normalmente, e se ocorrer uma exceção, o controle é passado para o bloco `except`.
+
+**Sintaxe:**
+
+```python
+try:
+   # Código que pode gerar uma exceção
+   resultado = 10 / 0
+except ZeroDivisionError:
+   # Código para tratar a exceção
+   print("Erro: Divisão por zero não é permitida.")
+```
+
+**Exemplo Explicado:**
+
+No exemplo acima, tentamos dividir um número por zero, o que gera uma exceção do tipo `ZeroDivisionError`. O bloco `except` captura essa exceção e exibe uma mensagem amigável ao usuário.
+
+#### **Finally**
+
+O bloco `finally` é usado para executar código que deve ser executado independentemente de uma exceção ter ocorrido ou não. Ele é útil para liberar recursos, como fechar arquivos ou conexões de banco de dados.
+
+**Sintaxe:**
+
+```python
+try:
+   arquivo = open("dados.txt", "r")
+   conteudo = arquivo.read()
+except FileNotFoundError:
+   print("Erro: O arquivo não foi encontrado.")
+finally:
+   print("Encerrando o programa.")
+   if 'arquivo' in locals() and not arquivo.closed:
+      arquivo.close()
+```
+
+**Exemplo Explicado:**
+
+Neste exemplo, tentamos abrir um arquivo para leitura. Se o arquivo não existir, uma exceção `FileNotFoundError` será capturada. O bloco `finally` garante que o programa exiba uma mensagem de encerramento e feche o arquivo, caso ele tenha sido aberto.
+
+#### **Uso Combinado**
+
+Você pode combinar `try`, `except` e `finally` para criar um fluxo robusto de tratamento de erros.
+
+**Exemplo Completo:**
+
+```python
+try:
+   numero = int(input("Digite um número: "))
+   resultado = 10 / numero
+   print(f"Resultado: {resultado}")
+except ValueError:
+   print("Erro: Você deve digitar um número válido.")
+except ZeroDivisionError:
+   print("Erro: Divisão por zero não é permitida.")
+finally:
+   print("Obrigado por usar o programa.")
+```
+
+**Explicação:**
+
+1. O bloco `try` tenta converter a entrada do usuário em um número inteiro e realiza uma divisão.
+2. O bloco `except ValueError` captura erros de conversão de tipo.
+3. O bloco `except ZeroDivisionError` captura erros de divisão por zero.
+4. O bloco `finally` exibe uma mensagem final, independentemente de erros terem ocorrido.
+
+O uso de `try`, `except` e `finally` torna seu código mais robusto e preparado para lidar com situações inesperadas, melhorando a experiência do usuário e a confiabilidade do programa.
 
 
 
