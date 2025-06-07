@@ -1,4 +1,4 @@
-# Neste algoritmo, crie uma variável que armazene uma string e uma lista que armazena várias strings.
+# Neste algoritmo, criei uma variável que armazena uma string e uma lista que armazena várias strings.
 
 nome = "Maria"
 nomes = ["Ana", "João", "Carlos", "Beatriz"]
