@@ -2,7 +2,7 @@
 
 Repositório com materiais e exemplos de **lógica de programação utilizando Python**. Ideal para quem está começando na programação ou deseja reforçar a base.
 
----
+
 
 ## 📚 Conteúdo
 
@@ -11,7 +11,7 @@ Repositório com materiais e exemplos de **lógica de programação utilizando P
 - Programação Orientada a Objetos  
 - Algoritmos práticos em Python
 
----
+
 
 ## 🧪 Contribua
 
@@ -20,14 +20,14 @@ Repositório com materiais e exemplos de **lógica de programação utilizando P
 - Sugira melhorias ou adicione novos scripts  
 - Envie um Pull Request 🚀
 
----
+
 
 ## 👤 Autoras
 
 - Alline Antunes – Criação e desenvolvimento do projeto
 - Cristiane Machado - ex36.py - Python
 
----
+
 
 ## 📄 Licença
 
