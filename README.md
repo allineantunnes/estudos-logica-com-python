@@ -22,9 +22,10 @@ Repositório com materiais e exemplos de **lógica de programação utilizando P
 
 ---
 
-## 👤 Autora
+## 👤 Autoras
 
 - Alline Antunes – Criação e desenvolvimento do projeto
+- Cristiane Machado - ex36.py - Python
 
 ---
 
