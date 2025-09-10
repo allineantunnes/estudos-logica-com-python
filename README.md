@@ -68,7 +68,7 @@ ferramentas que visam facilitar o processo de desenvolvimento de software em Pyt
    listas (list), dicionários (dict), entre outros. O tipo de dado é 
    inferido automaticamente quando você atribui um valor à variável.
 
-<Exemplos em código - ex001>
+[Exemplos em código - ex001](code-atividades/ex001.py)
 
 ------
 
@@ -90,7 +90,7 @@ Exemplos:
 - 2 ** 3 + 4 → Resultado: 12
 - (5 + 3) * 2 → Resultado: 16
 
-<Exemplos em código - ex002>
+[Exemplos em código - ex002](code-atividades/ex002.py)
 
 <center>.....................................................................................................................................................................</center>
 
@@ -106,7 +106,7 @@ Exemplos:
 - not (5 == 3) → Resultado: True
 - (2 > 1) or (3 < 1) → Resultado: True
 
-<Exemplos em código - ex003>
+[<]Exemplos em código - ex003](code-atividades/ex003.py)
 
 <center>.....................................................................................................................................................................</center>
 
@@ -126,7 +126,7 @@ Exemplos:
 
 Lembre-se de que as expressões são fundamentais para realizar cálculos, comparações e testes em Python, tornando-se uma parte essencial na programação com essa linguagem.
 
-<Exemplos em código - ex001, ex002, ex003>
+Exemplos em código - [ex001](code-atividades/ex001.py), [ex002](code-atividades/ex002.py), [ex003](code-atividades/ex003.py)
 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
@@ -174,7 +174,7 @@ Exemplo:
 
 1. Resetar a formatação:Após usar códigos ANSI para formatar o texto, é recomendado que você adicione `\033[0m` para redefinir as configurações e evitar que a formatação se aplique ao texto posterior.
 
-<Exemplos em código - ex004>
+[Exemplos em código - ex004](code-atividades/ex004.py)
 
 ------
 
@@ -209,7 +209,7 @@ Sintaxe do comando **FOR** em Python é a seguinte:
 
 Podemos usar o `break` para sair de um loop antes que a condição seja falsa, e o `continue` para pular a iteração atual e ir para a próxima.
 
-<Exemplos em código - ex006, ex007>
+Exemplos em código - [ex006](code-atividades/ex006.py), [ex007](code-atividades/ex007.py)
 
 ------
 
@@ -366,7 +366,7 @@ Python tem um comportamento interessante ao passar argumentos para funções. A 
 - **Por Valor:** Tipos imutáveis como inteiros, strings e tuplas são passados por valor. Isso significa que qualquer alteração feita no parâmetro dentro da função não afeta o valor original.
 - **Por Referência:** Tipos mutáveis como listas, dicionários e conjuntos são passados por referência. Portanto, se você modificar o parâmetro dentro da função, o valor original também será alterado.
 
-<Exemplos em código - ex030, ex035>
+Exemplos em código - [ex030](code-atividades/ex30.py), [ex035](code-atividades/ex35.py)
 
 ### Bibliotecas
 
@@ -390,7 +390,7 @@ Criar sua própria biblioteca pode parecer uma tarefa assustadora, mas é essenc
 
 Entender as bibliotecas e como elas operam é fundamental para qualquer desenvolvedor Python, seja utilizando funcionalidades preexistentes para acelerar seu trabalho ou compartilhando suas próprias criações com a comunidade de desenvolvedores Python.
 
-<Exemplos em código - ex036, ex037, ex038>
+Exemplos em código - [ex036](code-atividades/ex036.py), [ex037](code-atividades/ex037.py), [ex038](code-atividades/ex038.py)
 
 
 
