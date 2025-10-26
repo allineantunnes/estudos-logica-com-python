@@ -402,3 +402,76 @@ Interpretador:
 
 Linguagem de Máquina:
 
+# 🤝 Como Contribuir com este Repositório
+
+Ficamos muito felizes pelo seu interesse em contribuir com o projeto **Estudos de Lógica com Python**! Toda ajuda é bem-vinda, desde a correção de um simples erro de digitação até a adição de novos exercícios complexos.
+
+Para garantir que o projeto se mantenha organizado e com qualidade, pedimos que siga estas diretrizes.
+
+## 💡 Tipos de Contribuição
+
+* **🐛 Relatar Erros (Issues):** Encontrou um erro no código, um *typo* na documentação ou um exercício cuja lógica não está correta? A melhor forma de nos avisar é abrindo uma [Issue](https://github.com/allineantunnes/estudos-logica-com-python/issues).
+* **💡 Sugerir Melhorias:** Tem uma ideia para um novo exercício, uma explicação mais clara ou uma forma mais "Pythônica" de resolver um problema? Abra uma [Issue](https://github.com/allineantunnes/estudos-logica-com-python/issues) para discutirmos.
+* **📚 Adicionar Conteúdo (Pull Request):** Deseja corrigir um bug, adicionar um novo exercício ou melhorar um existente? Isso é incrível! Siga o passo a passo abaixo.
+
+## 🚀 Passo a Passo para Contribuir com Código (Pull Request)
+
+Este é o fluxo padrão de contribuição usando *Forks* e *Pull Requests* (PRs).
+
+### 1. Faça um Fork do Repositório
+
+Clique no botão **"Fork"** no canto superior direito desta página. Isso criará uma cópia exata deste repositório na sua própria conta do GitHub.
+
+### 2. Clone o Seu Fork
+
+Agora, clone o repositório (o seu *fork*) para a sua máquina local:
+
+```bash
+git clone [https://github.com/SEU-USUARIO/estudos-logica-com-python.git](https://github.com/SEU-USUARIO/estudos-logica-com-python.git)
+cd estudos-logica-com-python
+```
+(Lembre-se de trocar SEU-USUARIO pelo seu nome de usuário do GitHub).
+
+3. Crie uma Nova Branch
+Nunca trabalhe diretamente na branch `main`. Crie uma branch específica para a sua alteração. Use um nome descritivo para que todos saibam o que você está fazendo.
+```
+# Exemplo para corrigir um exercício
+git checkout -b fix/correcao-exercicio-05
+
+# Exemplo para adicionar um novo recurso
+git checkout -b feature/adiciona-exercicio-loops-while
+```
+
+4. Faça suas Alterações
+Agora é a hora de codar! Adicione seu novo exercício, corrija o bug ou melhore a documentação.
+
+5. Faça o Commit das Alterações
+Após realizar as alterações, prepare os arquivos (`add`) e salve-os (`commit`) no histórico. Use mensagens de commit claras e objetivas.
+
+```
+# Adiciona todos os arquivos modificados
+git add .
+
+# Cria o commit
+git commit -m "Fix: Corrige a lógica de contagem no exercício 05"
+```
+(Tente usar Commits Semânticos se possível, como Fix:, Feat:, Docs:).
+
+6. Envie as Alterações para o seu Fork
+Envie a sua branch de trabalho para o seu repositório (`fork`) no GitHub:
+
+`git push -u origin feature/adiciona-exercicio-loops-while`
+
+7. Abra um Pull Request (PR)
+Volte para o seu fork no GitHub. Você verá um aviso para "Compare & pull request". Clique nele.
+
+- Base: `allineantunnes/estudos-logica-com-python` (o repositório original)
+
+- Head: `SEU-USUARIO/estudos-logica-com-python` (a sua branch)
+
+Escreva um título claro e uma breve descrição do que você fez e por quê. Se sua PR corrige uma Issue existente, mencione-a (ex: `Corrige #12`).
+
+8. Aguarde a Revisão
+Pronto! Agora é só aguardar a revisão. A dona do repositório será notificada, poderá revisar seu código, sugerir alterações ou aprová-lo (fazer o `merge`).
+
+Obrigado por sua contribuição! ❤️
