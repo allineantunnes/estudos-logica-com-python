@@ -8,6 +8,6 @@ nome = "Gandalf"
 tipo = "Mago"
 xp = 1500
 
-xp = xp + 1500
+xp = 500 + 1500
 
 print("Seu personagem é,", nome,"do tipo, ", tipo,"e xp:", xp)
