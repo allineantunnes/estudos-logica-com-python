@@ -1,20 +1,26 @@
 # Lógica de Programação 
 
-Este repositório tem como objetivo compartilhar um pouco dos meus estudos de lógica de programação utilizando o Python. No momento, vou passar por algumas informações introdutórias sobre, mas, deixarei um link com a história e detalhes sobre a mesma. 
+Este repositório tem como objetivo compartilhar um pouco dos meus estudos de lógica de programação com exemplos em **Python** e **Ruby 3.4.4**. Aqui você vai encontrar conteúdos introdutórios, explicações de conceitos e exercícios práticos nas duas linguagens.
 
 **Link:** [Ebook - Introdução ao Python - Editora IFRN](https://memoria.ifrn.edu.br/bitstream/handle/1044/2090/EBOOK%20-%20INTRODU%C3%87%C3%83O%20A%20PYTHON%20%28EDITORA%20IFRN%29.pdf?sequence=1&isAllowed=y)
 
-Primeiro de tudo, **instalação**. Se em sua máquina já tiver o python instalado, então tudo certo xD
+Primeiro de tudo, **instalação**. Se na sua máquina já tiver Python e Ruby instalados, então está tudo certo xD.
 
-No entanto, o passo a passo a seguir é eficaz para ajudar aqueles que não possuem o Python instalado.
+No entanto, o passo a passo a seguir é eficaz para ajudar quem ainda não possui o Python instalado.
 
-OBS: Também pode servir para quem não sabe (esqueceu) é só verificar se você tem o Python instalado na sua máquina.
+OBS: Também pode servir para quem não sabe (ou esqueceu), basta verificar se você tem o Python instalado na sua máquina.
 
 **NO CMD:**
 
 **Digite:** `python --version`
 
 O retorno esperado para (caso) você tiver o python instalado, seria o nome a versão: `python3.11.2 `
+
+Para Ruby, você pode validar com:
+
+**Digite:** `ruby --version`
+
+O retorno esperado deve indicar a versão instalada (neste repositório, os exercícios foram reescritos para **Ruby 3.4.4**).
 
 Caso contrário, vamos ver agora um passo a passo da instalação (depois irei adicionar uma imagens e deixar mais claro no que for possível):
 
@@ -27,6 +33,27 @@ Caso contrário, vamos ver agora um passo a passo da instalação (depois irei a
 7. Depois de fazer as seleções desejadas, clique em "Next" (Avançar) e aguarde a instalação ser concluída.
 8. Após a instalação ser concluída, você pode abrir o prompt de comando (no Windows, pressione Win + R, digite "cmd" e pressione Enter) e digitar "python" para verificar se o Python foi instalado corretamente, como fizemos inicialmente.
 
+
+------
+
+## Estrutura do Repositório
+
+- `code-atividades/`: exercícios originais em Python (`.py`)
+- `code-atividades-ruby/`: versões equivalentes em Ruby 3.4.4 (`.rb`)
+
+### Como executar os exercícios
+
+Exemplo em Python:
+
+```bash
+python code-atividades/ex001.py
+```
+
+Exemplo em Ruby:
+
+```bash
+ruby code-atividades-ruby/ex001.rb
+```
 
 ------
 
