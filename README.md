@@ -392,7 +392,31 @@ Entender as bibliotecas e como elas operam é fundamental para qualquer desenvol
 
 <Exemplos em código - ex036, ex037, ex038>
 
+### Tuplas
 
+As tuplas são estruturas de dados utilizadas para armazenar uma sequência de elementos. São semelhantes às listas, porém possuem como principal característica a **imutabilidade**, ou seja, depois de criadas, seus elementos não podem ser alterados, adicionados ou removidos.
+
+- **Imutabilidade:** Uma vez definida, uma tupla mantém seus valores durante sua existência.
+- **Organização:** Seus elementos são ordenados e podem ser acessados através de índices, começando pela posição zero.
+- **Utilização:** São indicadas para armazenar conjuntos de dados que não devem sofrer alterações durante a execução do programa.
+
+As tuplas são normalmente declaradas utilizando parênteses `( )` e podem armazenar diferentes tipos de dados.
+
+<Exemplos em código - ex049>
+
+
+### Dicionários
+
+Os dicionários são estruturas de dados utilizadas para armazenar informações através de pares de **chave e valor**. Cada chave funciona como um identificador único para acessar o valor associado a ela.
+
+- **Chaves:** São utilizadas para identificar e acessar os valores armazenados no dicionário.
+- **Valores:** Representam os dados associados a cada chave e podem ser de diferentes tipos.
+- **Mutabilidade:** Dicionários são mutáveis, permitindo adicionar, alterar e remover elementos durante a execução do programa.
+- **Organização:** São úteis para representar dados que possuem uma relação entre uma identificação e seu respectivo valor.
+
+Os dicionários são normalmente declarados utilizando chaves `{ }`, com cada chave separada de seu valor através de dois pontos `:`.
+
+<Exemplos em código - ex050>
 
 
 
