@@ -1,0 +1,46 @@
+"TESTE CONTÍNUO DE CONEXÃO"
+
+import socket
+import time
+from datetime import datetime
+
+def check_connection(host="8.8.8.8", port=53, timeout=3):
+    """Testa a conexão estabelecendo um socket TCP rápido."""
+    try:
+        socket.setdefaulttimeout(timeout)
+        socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect((host, port))
+        return True
+    except (socket.error, TimeoutError):
+        return False
+
+def main():
+    print("=" * 50)
+    print("   MONITOR DE CONEXÃO EM 8.8.8.8")
+    print("=" * 50)
+    print("Pressione Ctrl+C para encerrar o monitoramento.\n")
+    
+    intervalo = 1  # Tempo em segundos entre cada teste
+    
+    try:
+        while True:
+            # Pega o horário completo e fatia os milésimos para 3 casas ([:3])
+            agora_obj = datetime.now()
+            hora_base = agora_obj.strftime("%H:%M:%S")
+            timestamp = f"{hora_base}"
+            
+            online = check_connection()
+            
+            if online:
+                # \033[92m = Verde | \033[0m = Reseta a cor
+                print(f"[{timestamp}] \033[92m[ONLINE] Conexão ativa e estável\033[0m")
+            else:
+                # \033[91m = Vermelho | \033[0m = Reseta a cor
+                print(f"[{timestamp}] \033[91m[OFFLINE] Falha na conexão detectada!\033[0m")
+                
+            time.sleep(intervalo)
+            
+    except KeyboardInterrupt:
+        print("\n\nMonitoramento encerrado pelo usuário.")
+
+if __name__ == "__main__":
+    main()
